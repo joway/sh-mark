@@ -1,3 +1,1 @@
-# Headline
-
-> An awesome project.
+<script>window.location = "/#/zh-cn/";</script>

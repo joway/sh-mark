@@ -1,3 +1,0 @@
-- [首页](zh-cn/)
-- [Git](zh-cn/git)
-- [软件安装](zh-cn/install)

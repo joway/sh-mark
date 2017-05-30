@@ -1,3 +1,21 @@
+## Go
+
+### Ubuntu 16.04
+
+	apt-get install software-properties-common
+	sudo add-apt-repository ppa:longsleep/golang-backports
+	sudo apt-get update
+	sudo apt-get install golang-go
+	
+	
+	# append into ~/.bashrc
+	export GOROOT=~/go
+	export GOARCH=386
+	export GOOS=linux
+	export GOBIN=$GOROOT/bin/
+	export GOTOOLS=$GOROOT/pkg/tool/
+	export PATH=$PATH:$GOBIN:$GOTOOLS
+
 ## Docker
 
 ### General
